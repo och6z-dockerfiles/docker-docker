@@ -2,8 +2,8 @@
 ```bash
 docker build \
     --no-cache \
-    --build-arg IMAGE=python \
-    --build-arg IMAGE_VERSION=3.8-slim \
+    --build-arg IMAGE=debian \
+    --build-arg IMAGE_VERSION=stable-slim \
     --file Dockerfile \
     --tag image-name:latest .
 ```
